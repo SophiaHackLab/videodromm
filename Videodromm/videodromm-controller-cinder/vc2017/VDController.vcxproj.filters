@@ -137,115 +137,115 @@
     <ClCompile Include="..\src\VDControllerApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\connector.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\connector.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\error_codes.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\error_codes.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\handshaker.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\handshaker.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\headers.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\headers.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\http.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\http.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\parsers.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\parsers.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\request_response.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\request_response.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\requester.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\requester.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\responder.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\responder.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-HTTP\src\cinder\http\url.hpp">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-HTTP\src\cinder\http\url.hpp">
       <Filter>Blocks\Cinder-HTTP(S)\src\cinder\http</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\include\CinderImGui.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\include\CinderImGui.h">
       <Filter>Blocks\ImGui\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\include\imgui_user.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\include\imgui_user.h">
       <Filter>Blocks\ImGui\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\include\imgui_user.inl">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\include\imgui_user.inl">
       <Filter>Blocks\ImGui\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\lib\imgui\imconfig.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imconfig.h">
       <Filter>Blocks\ImGui\lib\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.h">
       <Filter>Blocks\ImGui\lib\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_internal.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_internal.h">
       <Filter>Blocks\ImGui\lib\imgui</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\src\CinderImGui.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\src\CinderImGui.cpp">
       <Filter>Blocks\ImGui\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.cpp">
       <Filter>Blocks\ImGui\lib\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_draw.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_draw.cpp">
       <Filter>Blocks\ImGui\lib\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_demo.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_demo.cpp">
       <Filter>Blocks\ImGui\lib\imgui</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\include\MidiConstants.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiConstants.h">
       <Filter>Blocks\Midi2\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\include\MidiExceptions.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiExceptions.h">
       <Filter>Blocks\Midi2\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\include\MidiHeaders.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiHeaders.h">
       <Filter>Blocks\Midi2\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\include\MidiHub.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiHub.h">
       <Filter>Blocks\Midi2\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\include\MidiIn.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiIn.h">
       <Filter>Blocks\Midi2\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\include\MidiMessage.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiMessage.h">
       <Filter>Blocks\Midi2\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\include\MidiOut.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiOut.h">
       <Filter>Blocks\Midi2\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\lib\RtMidi.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\lib\RtMidi.h">
       <Filter>Blocks\Midi2\lib</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\src\MidiHub.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiHub.cpp">
       <Filter>Blocks\Midi2\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\src\MidiIn.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiIn.cpp">
       <Filter>Blocks\Midi2\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\src\MidiMessage.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiMessage.cpp">
       <Filter>Blocks\Midi2\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\src\MidiOut.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiOut.cpp">
       <Filter>Blocks\Midi2\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-MIDI2\lib\RtMidi.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\lib\RtMidi.cpp">
       <Filter>Blocks\Midi2\lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-NDI\src\CinderNDIReceiver.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-NDI\src\CinderNDIReceiver.cpp">
       <Filter>Blocks\Cinder-NDI\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-NDI\src\CinderNDISender.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-NDI\src\CinderNDISender.cpp">
       <Filter>Blocks\Cinder-NDI\src</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-NDI\include\CinderNDIReceiver.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\include\CinderNDIReceiver.h">
       <Filter>Blocks\Cinder-NDI\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-NDI\include\CinderNDISender.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\include\CinderNDISender.h">
       <Filter>Blocks\Cinder-NDI\include</Filter>
     </ClInclude>
     <ClInclude Include="..\blocks\Spout\include\CiSpoutIn.h">
@@ -290,262 +290,262 @@
     <ClInclude Include="..\blocks\Spout\include\SpoutSharedMemory.h">
       <Filter>Blocks\Spout\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDAnimation.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDAnimation.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDFboShader.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDFboShader.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDJsonManager.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDJsonManager.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDKeyboard.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDKeyboard.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDLog.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDLog.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDMediator.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDMediator.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDMidi.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDMidi.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDMix.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDMix.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDOscObserver.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDOscObserver.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDOscReceiver.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDOscReceiver.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDParams.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDParams.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDSession.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDSession.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDSessionFacade.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDSessionFacade.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDSettings.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDSettings.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDTypes.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDTypes.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDUIObserver.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDUIObserver.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDUIParams.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDUIParams.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDUniforms.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDUniforms.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\include\VDWebsocket.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDR\include\VDWebsocket.h">
       <Filter>Blocks\Cinder-VDR\include</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDAnimation.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDAnimation.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDFboShader.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDFboShader.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDJsonManager.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDJsonManager.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDKeyboard.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDKeyboard.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDLog.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDLog.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDMediator.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDMediator.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDMidi.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDMidi.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDMix.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDMix.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDOscReceiver.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDOscReceiver.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDParams.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDParams.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDSession.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDSession.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDSessionFacade.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDSessionFacade.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDSettings.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDSettings.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDUniforms.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDUniforms.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDR\src\VDWebsocket.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDR\src\VDWebsocket.cpp">
       <Filter>Blocks\Cinder-VDR\src</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\include\VDUI.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDRUI\include\VDUI.h">
       <Filter>Blocks\Cinder-VDUI\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\include\VDUIAnimation.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDRUI\include\VDUIAnimation.h">
       <Filter>Blocks\Cinder-VDUI\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\include\VDUIFbos.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDRUI\include\VDUIFbos.h">
       <Filter>Blocks\Cinder-VDUI\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\include\VDUITextures.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDRUI\include\VDUITextures.h">
       <Filter>Blocks\Cinder-VDUI\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\include\VDUIWarps.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDRUI\include\VDUIWarps.h">
       <Filter>Blocks\Cinder-VDUI\include</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\src\VDUI.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDRUI\src\VDUI.cpp">
       <Filter>Blocks\Cinder-VDUI\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\src\VDUIAnimation.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDRUI\src\VDUIAnimation.cpp">
       <Filter>Blocks\Cinder-VDUI\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\src\VDUIFbos.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDRUI\src\VDUIFbos.cpp">
       <Filter>Blocks\Cinder-VDUI\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\src\VDUITextures.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDRUI\src\VDUITextures.cpp">
       <Filter>Blocks\Cinder-VDUI\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-VDRUI\src\VDUIWarps.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDRUI\src\VDUIWarps.cpp">
       <Filter>Blocks\Cinder-VDUI\src</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-Warping\include\Warp.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-Warping\include\Warp.h">
       <Filter>Blocks\Cinder-Warping\include</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-Warping\src\Warp.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-Warping\src\Warp.cpp">
       <Filter>Blocks\Cinder-Warping\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-Warping\src\WarpBilinear.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-Warping\src\WarpBilinear.cpp">
       <Filter>Blocks\Cinder-Warping\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-Warping\src\WarpPerspective.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-Warping\src\WarpPerspective.cpp">
       <Filter>Blocks\Cinder-Warping\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-Warping\src\WarpPerspectiveBilinear.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-Warping\src\WarpPerspectiveBilinear.cpp">
       <Filter>Blocks\Cinder-Warping\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketClient.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketClient.cpp">
       <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketConnection.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketConnection.cpp">
       <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketServer.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketServer.cpp">
       <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketClient.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketClient.h">
       <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketConnection.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketConnection.h">
       <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketServer.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketServer.h">
       <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayer.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayer.cpp">
       <Filter>Blocks\WMFVideo\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayerUtils.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayerUtils.cpp">
       <Filter>Blocks\WMFVideo\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\PresentEngine.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\PresentEngine.cpp">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\Presenter.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\Presenter.cpp">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\PresenterHelpers.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\PresenterHelpers.cpp">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\scheduler.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\scheduler.cpp">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayer.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayer.h">
       <Filter>Blocks\WMFVideo\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayerUtils.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\ciWMFVideoPlayerUtils.h">
       <Filter>Blocks\WMFVideo\src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\EVRPresenter.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\EVRPresenter.h">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\EVRPresenterUuid.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\EVRPresenterUuid.h">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\PresentEngine.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\PresentEngine.h">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\Presenter.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\Presenter.h">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\PresenterHelpers.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\PresenterHelpers.h">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\scheduler.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\scheduler.h">
       <Filter>Blocks\WMFVideo\src\presenter</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\AsyncCB.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\AsyncCB.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\BufferLock.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\BufferLock.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\ClassFactory.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\ClassFactory.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\common.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\common.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\critsec.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\critsec.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\GrowArray.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\GrowArray.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\linklist.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\linklist.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\logging.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\logging.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\logmediatype.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\logmediatype.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\mediatype.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\mediatype.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\mfutils.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\mfutils.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\PropVar.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\PropVar.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\registry.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\registry.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\TinyMap.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\TinyMap.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\trace.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WMFVideo\src\presenter\common\trace.h">
       <Filter>Blocks\WMFVideo\src\presenter\common</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\cpp\Cinder\blocks\OSC\src\cinder\osc\Osc.cpp">
+    <ClCompile Include="..\..\..\Cinder\blocks\OSC\src\cinder\osc\Osc.cpp">
       <Filter>Blocks\OSC\src\cinder\osc</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\cpp\Cinder\blocks\OSC\src\cinder\osc\Osc.h">
+    <ClInclude Include="..\..\..\Cinder\blocks\OSC\src\cinder\osc\Osc.h">
       <Filter>Blocks\OSC\src\cinder\osc</Filter>
     </ClInclude>
   </ItemGroup>
