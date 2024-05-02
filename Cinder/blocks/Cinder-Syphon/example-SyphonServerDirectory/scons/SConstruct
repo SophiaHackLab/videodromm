@@ -1,0 +1,8 @@
+env = Environment()
+
+env['APP_TARGET'] = 'SyphonServerDirectoryApp'
+env['APP_SOURCES'] = ['SyphonServerDirectoryApp.cpp']
+
+env = SConscript('../../scons/SConscript', exports = 'env')
+
+SConscript('../../../../scons/SConscript', exports = 'env')

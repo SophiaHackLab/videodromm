@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+    <block
+	name="Cinder-Hap2"
+	id="org.libcinder.hap2"
+	author="Éric Renaud-Houde"
+	license="BSD"
+	summary="Gpu-accelerated hap movie player."
+	git="git@github.com:mpcdigital/Cinder-Hap2.git"
+	version="0.2"
+	libraryUrl="www.libcinder.org"
+    >
+    <requires>org.libcinder.quicktime</requires>
+    <sourcePattern>src/*.cpp</sourcePattern>
+    <sourcePattern>src/*.c</sourcePattern>
+    <headerPattern>src/*.h</headerPattern>
+    <includePath>src</includePath>
+    
+	<resource name="RES_HAP_VERT" type="GLSL">resources/ScaledCoCgYToRGBA.vert</resource>
+	<resource name="RES_HAP_FRAG" type="GLSL">resources/ScaledCoCgYToRGBA.frag</resource>
+
+	<supports os="msw" />
+	<supports os="macosx" />
+	<platform os="macosx">
+		<framework sdk="true">QuickTime.framework</framework>
+	</platform>
+	
+</block>
+</cinder>
