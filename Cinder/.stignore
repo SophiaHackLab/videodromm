@@ -1,0 +1,7 @@
+node_modules
+*.obj
+*.ipch
+*.opendb
+*.suo
+*.db
+Browse.VC.db
