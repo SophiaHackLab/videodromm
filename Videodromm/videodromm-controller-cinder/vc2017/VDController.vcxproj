@@ -46,7 +46,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Cinder\include;..\..\..\Cinder\blocks\Cinder-HTTP\src;..\..\..\Cinder\blocks\Cinder-HTTP\lib\include;..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui;..\..\..\Cinder\blocks\Cinder-ImGui\include;..\..\..\Cinder\blocks\Cinder-MIDI2\include;..\..\..\Cinder\blocks\Cinder-MIDI2\lib;..\..\..\Cinder\blocks\Cinder-MIDI2\src;..\..\..\Cinder\blocks\Cinder-NDI\include;..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\include;..\..\..\Cinder\blocks\Spout\include;..\..\..\Cinder\blocks\Cinder-VDR\include;..\..\..\Cinder\blocks\Cinder-VDR\src;..\..\..\Cinder\blocks\Cinder-VDRUI\include;..\..\..\Cinder\blocks\Cinder-VDRUI\src;..\..\..\Cinder\blocks\Cinder-Warping\include;..\..\..\Cinder\blocks\Cinder-WebSocketPP\src;..\..\..\Cinder\include\asio;..\..\..\Cinder\blocks\Cinder-WMFVideo\src;..\..\..\Cinder\blocks\OSC\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Cinder\include;..\..\..\Cinder\blocks\Cinder-HTTP\src;..\..\..\Cinder\blocks\Cinder-HTTP\lib\include;..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui;..\..\..\Cinder\blocks\Cinder-ImGui\include;..\..\..\Cinder\blocks\Cinder-MIDI2\include;..\..\..\Cinder\blocks\Cinder-MIDI2\lib;..\..\..\Cinder\blocks\Cinder-MIDI2\src;..\..\..\Cinder\blocks\Cinder-NDI\include;..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\include;..\..\..\Cinder\blocks\Cinder-Spout\include;..\..\..\Cinder\blocks\Cinder-VDR\include;..\..\..\Cinder\blocks\Cinder-VDR\src;..\..\..\Cinder\blocks\Cinder-VDRUI\include;..\..\..\Cinder\blocks\Cinder-VDRUI\src;..\..\..\Cinder\blocks\Cinder-Warping\include;..\..\..\Cinder\blocks\Cinder-WebSocketPP\src;..\..\..\Cinder\include\asio;..\..\..\Cinder\blocks\Cinder-WMFVideo\src;..\..\..\Cinder\blocks\OSC\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__WINDOWS_MM__;WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -59,7 +59,7 @@
       <AdditionalIncludeDirectories>"..\..\..\Cinder\include";..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>cinder.lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\Cinder\blocks\Cinder-HTTP\lib\msw\Debug\libeay32MT.lib;..\..\..\Cinder\blocks\Cinder-HTTP\lib\msw\Debug\ssleay32MT.lib;winmm.lib;..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\lib\$(PlatformTarget)\Processing.NDI.Lib.x64.lib;..\blocks\Spout\lib\Spout.lib</AdditionalDependencies>
+      <AdditionalDependencies>cinder.lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\Cinder\blocks\Cinder-HTTP\lib\msw\Debug\libeay32MT.lib;..\..\..\Cinder\blocks\Cinder-HTTP\lib\msw\Debug\ssleay32MT.lib;winmm.lib;..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\lib\$(PlatformTarget)\Processing.NDI.Lib.x64.lib;..\..\..\Cinder\blocks\Cinder-Spout\lib\Spout.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>"..\..\..\Cinder\lib\msw\$(PlatformTarget)";"..\..\..\Cinder\lib\msw\$(PlatformTarget)\$(Configuration)\$(PlatformToolset)";..\..\..\Cinder\blocks\Cinder-WebSocketPP\lib\msw</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
@@ -70,14 +70,14 @@
     <PostBuildEvent>
       <Command>xcopy /y "..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\bin\$(PlatformTarget)\Processing.NDI.Lib.x64.dll" "$(OutDir)"
 
-xcopy /y "..\blocks\Spout\lib\Spout.dll" "$(OutDir)"
+xcopy /y "..\..\..\Cinder\blocks\Cinder-Spout\lib\Spout.dll" "$(OutDir)"
 
-xcopy /y "..\blocks\Spout\lib\SpoutPanel.exe" "$(OutDir)"</Command>
+xcopy /y "..\..\..\Cinder\blocks\Cinder-Spout\lib\SpoutPanel.exe" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\include;..\..\..\Cinder\include;..\..\..\Cinder\blocks\Cinder-HTTP\src;..\..\..\Cinder\blocks\Cinder-HTTP\lib\include;..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui;..\..\..\Cinder\blocks\Cinder-ImGui\include;..\..\..\Cinder\blocks\Cinder-MIDI2\include;..\..\..\Cinder\blocks\Cinder-MIDI2\lib;..\..\..\Cinder\blocks\Cinder-MIDI2\src;..\..\..\Cinder\blocks\Cinder-NDI\include;..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\include;..\..\..\Cinder\blocks\Spout\include;..\..\..\Cinder\blocks\Cinder-VDR\include;..\..\..\Cinder\blocks\Cinder-VDR\src;..\..\..\Cinder\blocks\Cinder-VDRUI\include;..\..\..\Cinder\blocks\Cinder-VDRUI\src;..\..\..\Cinder\blocks\Cinder-Warping\include;..\..\..\Cinder\blocks\Cinder-WebSocketPP\src;..\..\..\Cinder\include\asio;..\..\..\Cinder\blocks\Cinder-WMFVideo\src;..\..\..\Cinder\blocks\OSC\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\include;..\..\..\Cinder\include;..\..\..\Cinder\blocks\Cinder-HTTP\src;..\..\..\Cinder\blocks\Cinder-HTTP\lib\include;..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui;..\..\..\Cinder\blocks\Cinder-ImGui\include;..\..\..\Cinder\blocks\Cinder-MIDI2\include;..\..\..\Cinder\blocks\Cinder-MIDI2\lib;..\..\..\Cinder\blocks\Cinder-MIDI2\src;..\..\..\Cinder\blocks\Cinder-NDI\include;..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\include;..\..\..\Cinder\blocks\Cinder-Spout\include;..\..\..\Cinder\blocks\Cinder-VDR\include;..\..\..\Cinder\blocks\Cinder-VDR\src;..\..\..\Cinder\blocks\Cinder-VDRUI\include;..\..\..\Cinder\blocks\Cinder-VDRUI\src;..\..\..\Cinder\blocks\Cinder-Warping\include;..\..\..\Cinder\blocks\Cinder-WebSocketPP\src;..\..\..\Cinder\include\asio;..\..\..\Cinder\blocks\Cinder-WMFVideo\src;..\..\..\Cinder\blocks\OSC\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__WINDOWS_MM__;WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader />
@@ -92,7 +92,7 @@ xcopy /y "..\blocks\Spout\lib\SpoutPanel.exe" "$(OutDir)"</Command>
       <AdditionalIncludeDirectories>"..\..\..\Cinder\include";..\include</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>cinder.lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\Cinder\blocks\Cinder-HTTP\lib\msw\Release\libeay32MT.lib;..\..\..\Cinder\blocks\Cinder-HTTP\lib\msw\Release\ssleay32MT.lib;winmm.lib;..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\lib\$(PlatformTarget)\Processing.NDI.Lib.x64.lib;..\blocks\Spout\lib\Spout.lib</AdditionalDependencies>
+      <AdditionalDependencies>cinder.lib;OpenGL32.lib;%(AdditionalDependencies);..\..\..\Cinder\blocks\Cinder-HTTP\lib\msw\Release\libeay32MT.lib;..\..\..\Cinder\blocks\Cinder-HTTP\lib\msw\Release\ssleay32MT.lib;winmm.lib;..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\lib\$(PlatformTarget)\Processing.NDI.Lib.x64.lib;..\..\..\Cinder\blocks\Cinder-Spout\lib\Spout.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>"..\..\..\Cinder\lib\msw\$(PlatformTarget)";"..\..\..\Cinder\lib\msw\$(PlatformTarget)\$(Configuration)\$(PlatformToolset)";..\..\..\Cinder\blocks\Cinder-WebSocketPP\lib\msw</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <GenerateMapFile>true</GenerateMapFile>
@@ -105,9 +105,9 @@ xcopy /y "..\blocks\Spout\lib\SpoutPanel.exe" "$(OutDir)"</Command>
     <PostBuildEvent>
       <Command>xcopy /y "..\..\..\Cinder\blocks\Cinder-NDI\ndisdk\bin\$(PlatformTarget)\Processing.NDI.Lib.x64.dll" "$(OutDir)"
 
-xcopy /y "..\blocks\Spout\lib\Spout.dll" "$(OutDir)"
+xcopy /y "..\..\..\Cinder\blocks\Cinder-Spout\lib\Spout.dll" "$(OutDir)"
 
-xcopy /y "..\blocks\Spout\lib\SpoutPanel.exe" "$(OutDir)"</Command>
+xcopy /y "..\..\..\Cinder\blocks\Cinder-Spout\lib\SpoutPanel.exe" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
