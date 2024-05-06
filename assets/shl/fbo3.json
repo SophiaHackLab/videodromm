@@ -1,0 +1,12 @@
+{
+   "shader" : {
+      "shadername" : "Octagrams.glsl",
+      "shadertype" : "fs"
+   },
+   "texture" : {
+      "texturemode" : 1,
+      "texturename" : "0.jpg",
+      "texturetype" : "image",
+      "assetspath" : "intro"
+   }
+}

@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "assetspath": "shl"
+  },
+  "uniforms": {
+    "iExposure": 1.0,
+    "iRotationSpeed": 0.0,
+    "iWeight0": 1.0,
+    "iWeight1": 1.0,
+    "iWeight2": 0.0,
+    "iWeight3": 0.0,
+    "iWeight4": 0.0,
+    "iWeight5": 0.0,
+    "iWeight6": 0.0,
+    "iWeight7": 0.0,
+    "iWeight8": 0.0,
+    "iClear": 0.0,
+    "iGreyScale": 0.0
+  }
+}

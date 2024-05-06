@@ -1,0 +1,12 @@
+{
+   "shader" : {
+      "shadername" : "InsideTheMatrix.glsl",
+      "shadertype" : "fs"
+   },
+   "texture" : {
+      "texturemode" : 1,
+      "texturename" : "2.png",
+      "texturetype" : "image",
+      "assetspath" : "shl"
+   }
+}

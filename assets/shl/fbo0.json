@@ -1,0 +1,11 @@
+{
+   "shader" : {
+      "shadername" : "pixelxy.fs",
+      "shadertype" : "fs"
+   },
+   "texture" : {
+      "texturemode" : 1,
+      "texturename" : "shltext.jpg",
+      "texturetype" : "image"
+   }
+}
