@@ -165,8 +165,8 @@ void VDMediatorObservable::update() {
 		// TODO timeline().apply(&mWarps[aWarpIndex]->ABCrossfade, 0.0f, 2.0f); };
 	}*/
 }
-bool VDMediatorObservable::setFragmentShaderString(const std::string& aFragmentShaderString, const std::string& aName) {
-	return mVDMix->setFragmentShaderString(aFragmentShaderString, aName);
+bool VDMediatorObservable::setFragmentShaderString(const std::string& aFragmentShaderString, const std::string& aName, unsigned int aFboShaderIndex) {
+	return mVDMix->setFragmentShaderString(aFragmentShaderString, aName, aFboShaderIndex);
 }
 int VDMediatorObservable::getOSCReceiverPort() {
 	return mOSCReceiverPort;

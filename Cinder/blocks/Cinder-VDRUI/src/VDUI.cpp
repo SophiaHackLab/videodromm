@@ -222,11 +222,21 @@ void VDUI::Run(const char* title, unsigned int fps) {
 
 		ImGui::PushItemWidth(mVDParams->getPreviewFboWidth());
 		ImGui::SameLine();
+		// reset ax
+		ImGui::PushStyleColor(ImGuiCol_Button, (ImVec4)ImColor::HSV(13.0f / 16.0f, 1.0f, 0.5f));
+		sprintf_s(buf, "x");
+		if (ImGui::Button(buf)) {
+			mVDSession->setUniformValue(mVDUniforms->IAUDIOX, 1.0);
+		}
+		ImGui::PopStyleColor(1);		
+		ImGui::SameLine();
 
 		multx = mVDSession->getUniformValue(mVDUniforms->IAUDIOX); // 40 was 12
 		if (ImGui::SliderFloat("AX", &multx, 0.01f, 7.0f)) {
 			mVDSession->setUniformValue(mVDUniforms->IAUDIOX, multx);
 		}
+		
+
 		ImGui::SameLine();
 		// audio preferred
 		if (ImGui::Button("Mic In")) {

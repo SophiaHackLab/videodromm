@@ -74,12 +74,12 @@ VDUniforms::VDUniforms() {
 	// iMouseZ  
 	createFloatUniform("iMouseZ", IMOUSEZ, 0.0f, 0.0f, 1.0f); //21
 	// vignette amount
-	createFloatUniform("iMouseW", IMOUSEW, 0.91f, 0.0f, 1.0f); //22
+	createFloatUniform("iMouseW", IMOUSEW, 0.91f, 0.0f, 1.0f); //22 20240518 default was 0.91f
 
 	// iRenderXYX 
-	createFloatUniform("iRenderXYX", IRENDERXYX, 0.0f, -1.0f, 1.0f); // 23
+	createFloatUniform("iRenderXYX", IRENDERXYX, 0.0f, -1.0f, 1920.0f); // 23
 	// iRenderXYY  
-	createFloatUniform("iRenderXYY", IRENDERXYY, 0.0f, -1.0f, 1.0f); // 24 
+	createFloatUniform("iRenderXYY", IRENDERXYY, 0.0f, -1.0f, 1080.0f); // 24 
 	// slitscan / matrix (or other) Param1 
 	//createFloatUniform("iPixelX", IPIXELX, 0.0f, 0.00000000001f, 40.0f); // 23
 	// slitscan / matrix(or other) Param2 
@@ -98,9 +98,9 @@ VDUniforms::VDUniforms() {
 	// contour
 	createFloatUniform("iContour", ICONTOUR, 0.0f, 0.0f, 0.5f); // 30
 	// weight mix fbo texture 0
-	createFloatUniform("iWeight0", IWEIGHT0, 0.0f, 0.0f, 1.0f); // 31
+	createFloatUniform("iWeight0", IWEIGHT0, 1.0f, 0.0f, 1.0f); // 31
 	// weight texture 1
-	createFloatUniform("iWeight1", IWEIGHT1, 1.0f, 0.0f, 1.0f); // 32
+	createFloatUniform("iWeight1", IWEIGHT1, 0.0f, 0.0f, 1.0f); // 32
 	// weight texture 2
 	createFloatUniform("iWeight2", IWEIGHT2, 0.0f, 0.0f, 1.0f); // 33
 	// weight texture 3

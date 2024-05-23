@@ -105,7 +105,7 @@ namespace videodromm {
 		bool								handleKeyUp(KeyEvent& event);
 
 		int									getErrorCode() { return mVDUniforms->getErrorCode(); }
-		bool								setFragmentShaderString(const std::string& aFragmentShaderString, const std::string& aName = "");
+		bool								setFragmentShaderString(const std::string& aFragmentShaderString, const std::string& aName = "", unsigned int aFboShaderIndex = 0);
 	private:
 		std::vector<VDUniformObserverRef>	mObservers;
 		// Settings

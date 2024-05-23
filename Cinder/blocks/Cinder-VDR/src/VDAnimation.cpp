@@ -222,6 +222,7 @@ void  VDAnimation::initLineIn() {
 
 #endif
 }
+
 ci::gl::TextureRef VDAnimation::getAudioTexture() {
 	mAudioFormat = gl::Texture2d::Format().swizzleMask(GL_RED, GL_RED, GL_RED, GL_ONE).internalFormat(GL_RED);
 	//auto ctx = audio::Context::master();
@@ -379,20 +380,20 @@ void VDAnimation::update() {
 	}
 	else
 	{*/
-		mVDUniforms->setUniformValue(mVDUniforms->ITIME,
-			((float)getElapsedSeconds() - mVDUniforms->getUniformValue(mVDUniforms->ISTART)) *
-			mVDUniforms->getUniformValue(mVDUniforms->ISPEED) *
-			mVDUniforms->getUniformValue(mVDUniforms->ITIMEFACTOR));
-		// sos
-		// IBARBEAT = IBAR * 4 + IBEAT
-		float current = mVDUniforms->getUniformValue(mVDUniforms->IBARBEAT); // 20210101 was int
-		if (current == 426.0f || current == 428.0f || current == 442.0f) {
-			mLastBar = 0.0f;
-		} //38 to set iStart
-		if (mLastBar != mVDUniforms->getUniformValue(mVDUniforms->IBAR)) {
-			mLastBar = mVDUniforms->getUniformValue(mVDUniforms->IBAR);
-			if (mLastBar < 419.0f && mLastBar > 424.0f) { mVDSettings->iStart = mVDUniforms->getUniformValue(mVDUniforms->ITIME); }
-		}
+	mVDUniforms->setUniformValue(mVDUniforms->ITIME,
+		((float)getElapsedSeconds() - mVDUniforms->getUniformValue(mVDUniforms->ISTART)) *
+		mVDUniforms->getUniformValue(mVDUniforms->ISPEED) *
+		mVDUniforms->getUniformValue(mVDUniforms->ITIMEFACTOR));
+	// sos
+	// IBARBEAT = IBAR * 4 + IBEAT
+	float current = mVDUniforms->getUniformValue(mVDUniforms->IBARBEAT); // 20210101 was int
+	if (current == 426.0f || current == 428.0f || current == 442.0f) {
+		mLastBar = 0.0f;
+	} //38 to set iStart
+	if (mLastBar != mVDUniforms->getUniformValue(mVDUniforms->IBAR)) {
+		mLastBar = mVDUniforms->getUniformValue(mVDUniforms->IBAR);
+		if (mLastBar < 419.0f && mLastBar > 424.0f) { mVDSettings->iStart = mVDUniforms->getUniformValue(mVDUniforms->ITIME); }
+	}
 	//}
 	// iResolution
 	mVDUniforms->setVec3UniformValueByIndex(mVDUniforms->IRESOLUTION, vec3(mVDUniforms->getUniformValue(mVDUniforms->IRESOLUTIONX), mVDUniforms->getUniformValue(mVDUniforms->IRESOLUTIONY), 1.0));

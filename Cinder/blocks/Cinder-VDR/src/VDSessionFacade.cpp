@@ -120,6 +120,7 @@ VDSessionFacadeRef VDSessionFacade::useTimeWithTempo() {
 VDSessionFacadeRef VDSessionFacade::update() {
 	mVDSession->update();
 	mVDMediator->update();
+	getAudioTexture(); // 20240518 force audio fft for fx.glsl even if no fboshader uses it (no performance drop)
 	return shared_from_this();
 }
 // begin terminal operations

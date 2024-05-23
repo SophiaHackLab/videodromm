@@ -116,8 +116,8 @@ void VDWebsocket::parseMessage(std::string msg) {
 							//{"event":"params","message":"{\"params\" :[{\"name\" : 12,\"value\" :0.132}]}"}
 							JsonTree jsonParams = json.getChild("message");
 							for (JsonTree::ConstIter jsonElement = jsonParams.begin(); jsonElement != jsonParams.end(); ++jsonElement) {
-								int name = jsonElement->getChild("name").getValue<int>();
-								float value = jsonElement->getChild("value").getValue<float>();
+								int name = jsonElement->hasChild("name") ? jsonElement->getChild("name").getValue<int>() : 0;
+								float value = jsonElement->hasChild("value") ? jsonElement->getChild("value").getValue<float>() : 1.0;
 								// basic name value 
 								mVDMediator->setUniformValue(name, value);
 							}
@@ -139,21 +139,19 @@ void VDWebsocket::parseMessage(std::string msg) {
 						}*/
 						else if (val == "frag") {
 							// we received a fragment shader string
-							//receivedFragString = json.getChild("message").getValue<std::string>();
-							//shaderReceived = true;
-							mVDMediator->setFragmentShaderString(json.getChild("message").getValue<std::string>(), "hydra");
+							unsigned int fbo = json.hasChild("fbo") ? json.getChild("fbo").getValue<unsigned int>() : 0;
+							std::string name = json.hasChild("name") ? json.getChild("name").getValue<std::string>() : "hydra";
+							mVDMediator->setFragmentShaderString(json.getChild("message").getValue<std::string>(), name, fbo);
 							// force to display
 							//mVDAnimation->setIntUniformValueByIndex(mVDUniforms->IFBOA, 0);
 							//mVDAnimation->setIntUniformValueByIndex(mVDUniforms->IFBOB, 1);
 						}
 						else {
-							// we received a fragment shader string
+							// unknown event
 							//CI_LOG_V("VDWebsocket unknown event: " + val);
 						}
-						//string evt = json.getChild("event").getValue<string>();
 					}
 				}
-
 			}
 			catch (cinder::JsonTree::Exception exception) {
 				/*mVDSettings->mWebSocketsMsg += " error jsonparser exception: ";

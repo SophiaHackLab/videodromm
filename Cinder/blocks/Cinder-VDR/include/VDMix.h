@@ -88,7 +88,7 @@ namespace videodromm
 			return mAssetsPath;
 		};
 		unsigned int					findAvailableIndex(unsigned int aFboShaderIndex, const JsonTree &json);
-		bool							setFragmentShaderString(const string& aFragmentShaderString, const std::string& aName = "");
+		bool							setFragmentShaderString(const string& aFragmentShaderString, const std::string& aName = "", unsigned int aFboShaderIndex = 0);
 
 		int								loadFragmentShader(const std::string& aFilePath, unsigned int aFboShaderIndex);
 		std::vector<ci::gl::GlslProg::Uniform>			getUniforms(unsigned int aFboIndex = 0) {
@@ -249,7 +249,7 @@ namespace videodromm
 		gl::GlslProgRef					mGlslMixette;
 		ci::gl::Texture2dRef			mMixetteTexture;
 		std::string						mError;
-		const unsigned int				MAXSHADERS = 7;
+		const unsigned int				MAXSHADERS = 8;
 		std::string						mAssetsPath = "";
 		fs::path						mixPath;
 		unsigned int					mCurrentSecond = 0;
