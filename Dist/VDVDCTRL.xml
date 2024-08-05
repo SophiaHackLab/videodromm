@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<AutoLayout value="1"/>
+	<Standalone value="0"/>
+	<MainWindowWidth value="1280"/>
+	<MainWindowHeight value="720"/>
+	<MainWindowX value="0"/>
+	<MainWindowY value="0"/>
+	<RenderWidth value="1280"/>
+	<RenderHeight value="720"/>
+	<RenderX value="1024"/>
+	<RenderY value="0"/>
+	<MIDIEnabled value="1"/>
+	<OSCEnabled value="0"/>
+	<OSCDestinationPort value="7001"/>
+	<OSCDestinationHost value="127.0.0.1"/>
+	<OSCDestinationPort2 value="7002"/>
+	<OSCDestinationHost2 value="127.0.0.1"/>
+	<MIDIOpenAllInputPorts value="1"/>
+	<ShowUI value="1"/>
+	<CursorVisible value="1"/>
+	<IsOSCSender value="0"/>
+	<AreSocketIOEnabledAtStartup value="1"/>
+	<IsRouter value="0"/>
+	<IsSocketIOServer value="0"/>
+	<SocketIOProtocol value="http://"/>
+	<SocketIOHost value="127.0.0.1"/>
+	<SocketIOPort value="8088"/>
+	<SocketIORoom value="roomtest"/>
+	<SocketIONickname value="bruce"/>
+	<Info value=""/>
+	<SplitWarpH value="0"/>
+	<SplitWarpV value="0"/>
+</settings>
+
