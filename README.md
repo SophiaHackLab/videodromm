@@ -6,6 +6,10 @@ monorepo (Cinder and apps)
  - `git clone https://github.com/SophiaHackLab/videodromm`
  - launch Dist/VDController.exe
 
+## tips
+- edit mix.json to point to your own folder in assets (see shl folder files for reference)
+- try the FX button after activating audio !
+
 ## run from source
 - Setup Visual Studio Community 2017 (6Gb)
 - `git clone https://github.com/SophiaHackLab/videodromm`
