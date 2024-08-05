@@ -1,8 +1,12 @@
 # videodromm
 monorepo (Cinder and apps)
 
+## run
+ - setup vs2017 redistribuable
+ - `git clone https://github.com/SophiaHackLab/videodromm`
+ - launch Dist/VDController.exe
 
-## setup
+## run from source
 - Setup Visual Studio Community 2017 (6Gb)
 - `git clone https://github.com/SophiaHackLab/videodromm`
 - open /Cinder/proj/vc2017/cinder.sln in Visual Studio compile the library Debug/x64 and Release/x64 ![generate](https://raw.github.com/SophiaHackLab/videodromm/main/img/generate.png)
